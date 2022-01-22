@@ -3,7 +3,6 @@ body {
     padding: 0;
     background: #FFF;
     overflow-x: hidden;
-    -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
@@ -24,7 +23,7 @@ a:hover {
     bottom: 0;
     width: 100%;
     z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
+    background: white url("img/pageload-spinner.gif") no-repeat center center;
 }
 
 .bloc {
@@ -652,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757;
+    color: black;
 }
 
 .container {
@@ -674,10 +673,11 @@ a {
     text-align: center;
     margin: auto auto auto auto;
     width: 100%;
+    color: black;
 }
 
 p {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 
@@ -694,7 +694,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF;
+    color: white;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -704,6 +704,9 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+}
+.black{
+    color: black;
 }
 
 h2 {
@@ -738,7 +741,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF;
+    color: white;
 }
 
 .portfolio-thumb {
@@ -765,7 +768,7 @@ h4 {
 }
 
 .bgc-white {
-    background-color: #FFFFFF;
+    background-color: white;
 }
 
 .bgc-dark-slate-blue {
@@ -791,16 +794,16 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF;
+    color: white;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956;
-    color: #FFFFFF;
+    color: white;
 }
 
 .ltc-white {
-    color: #FFFFFF;
+    color: white;
 }
 
 .ltc-white:hover {
