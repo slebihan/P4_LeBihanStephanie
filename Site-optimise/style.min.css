@@ -376,9 +376,6 @@ nav .caret {
   margin-bottom: 20px;
   color: #fff;
 }
-.black {
-  color: #000;
-}
 .mg-lg {
   margin-top: 10px;
   margin-bottom: 40px;
@@ -417,6 +414,7 @@ button {
 }
 .icon-lg {
   font-size: 60px !important;
+  margin-bottom: 30px;
 }
 
 .sm-shadow {
@@ -608,14 +606,19 @@ p {
     font-size: 48px;
 }
 .social {
-  max-width: 400px;
+  width: 100%;
   margin: auto auto auto auto;
 }
 .social:focus span{
     color: white;
 }
+.partenaires li{
+    margin-top: 30px;
+    width: 100%;
+}
 .black {
   color: #000;
+  margin-bottom: 30px;
 }
 h2 {
   font-size: 22px;
@@ -695,6 +698,7 @@ h4 {
   margin: auto auto auto auto;
   margin-top: 50px;
 }
+.partenaires ul li a:hover,
 .partenaires ul li a:focus{
     color: white;
     font-weight: bold;
@@ -702,6 +706,9 @@ h4 {
 .partenaires ul {
   list-style: none;
   padding: 0;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
 }
 .btn-atomic-tangerine {
   background: #f3976c;
@@ -959,4 +966,8 @@ h4 {
 .contact-agence:focus{
     color: black;
     border: 2px solid #364577;
+}
+.partenaires ul{
+    display: flex;
+    flex-direction: column;
 }
