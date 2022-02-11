@@ -963,10 +963,12 @@ h4 {
   }
 }
 
-.contact-agence:focus{
-    color: black;
-    border: 2px solid #364577;
+.contact-agence:focus p,
+.contact-agence p:hover{
+    border: 5px solid #364577;
+    font-weight: bold;
 }
+
 .partenaires ul{
     display: flex;
     flex-direction: column;
