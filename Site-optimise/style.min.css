@@ -448,7 +448,7 @@ button {
   transition: all 0.3s ease-in-out;
 }
 .scrollToTop:focus{
-    border:solid greenyellow 10px
+    border:solid white 2px
 }
 .scrollToTop span {
   margin-top: 6px;
